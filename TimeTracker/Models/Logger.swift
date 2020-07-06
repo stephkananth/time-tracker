@@ -9,9 +9,14 @@
 import Foundation
 
 struct Logger {
+    private static let loggerQueue = DispatchQueue(label: "loggerQueue", qos: .background, attributes: [],
+                                                   autoreleaseFrequency: .inherit, target: nil)
+
     static func log(className: String, methodName: String, message: String? = nil) {
-        let log = getLogMessage(className: className, methodName: methodName, message: message)
-        print(log)
+        loggerQueue.async {
+            let log = getLogMessage(className: className, methodName: methodName, message: message)
+            print(log)
+        }
     }
 
     internal static func getLogMessage(className: String, methodName: String, message: String? = nil) -> String {
