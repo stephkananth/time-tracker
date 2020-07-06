@@ -3,7 +3,7 @@
 
 set -eo pipefail
 
-xcodebuild  -project closet.xcodeproj \
-            -scheme closet \
+xcodebuild  -project TimeTracker.xcodeproj \
+            -scheme TimeTracker \
             -destination platform=iOS\ Simulator,OS=13.5,name=iPhone\ 11 \
             clean test | xcpretty
