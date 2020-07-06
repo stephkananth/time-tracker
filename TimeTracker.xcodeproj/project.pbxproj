@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85C621D024B3BD9200CCDC21 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C621CF24B3BD9200CCDC21 /* Logger.swift */; };
 		85DC38A024B3B06300A8B40A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC389F24B3B06300A8B40A /* AppDelegate.swift */; };
 		85DC38A424B3B06300A8B40A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC38A324B3B06300A8B40A /* ViewController.swift */; };
 		85DC38A724B3B06300A8B40A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DC38A524B3B06300A8B40A /* Main.storyboard */; };
 		85DC38AC24B3B06900A8B40A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DC38AB24B3B06900A8B40A /* Assets.xcassets */; };
 		85DC38AF24B3B06900A8B40A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DC38AD24B3B06900A8B40A /* LaunchScreen.storyboard */; };
-		85DC38BA24B3B06900A8B40A /* TimeTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC38B924B3B06900A8B40A /* TimeTrackerTests.swift */; };
+		85DC38BA24B3B06900A8B40A /* LoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC38B924B3B06900A8B40A /* LoggerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85C621CF24B3BD9200CCDC21 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		85DC389C24B3B06300A8B40A /* TimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DC389F24B3B06300A8B40A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85DC38A324B3B06300A8B40A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,7 +36,7 @@
 		85DC38AE24B3B06900A8B40A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85DC38B024B3B06900A8B40A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85DC38B524B3B06900A8B40A /* TimeTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		85DC38B924B3B06900A8B40A /* TimeTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackerTests.swift; sourceTree = "<group>"; };
+		85DC38B924B3B06900A8B40A /* LoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerTests.swift; sourceTree = "<group>"; };
 		85DC38BB24B3B06900A8B40A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +61,7 @@
 		85C621CA24B3BBCB00CCDC21 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				85C621CF24B3BD9200CCDC21 /* Logger.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -130,7 +133,7 @@
 		85DC38B824B3B06900A8B40A /* TimeTrackerTests */ = {
 			isa = PBXGroup;
 			children = (
-				85DC38B924B3B06900A8B40A /* TimeTrackerTests.swift */,
+				85DC38B924B3B06900A8B40A /* LoggerTests.swift */,
 				85DC38BB24B3B06900A8B40A /* Info.plist */,
 			);
 			path = TimeTrackerTests;
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85DC38A424B3B06300A8B40A /* ViewController.swift in Sources */,
+				85C621D024B3BD9200CCDC21 /* Logger.swift in Sources */,
 				85DC38A024B3B06300A8B40A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85DC38BA24B3B06900A8B40A /* TimeTrackerTests.swift in Sources */,
+				85DC38BA24B3B06900A8B40A /* LoggerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
