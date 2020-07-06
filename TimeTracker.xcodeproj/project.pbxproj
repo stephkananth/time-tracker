@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		85DC38A024B3B06300A8B40A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC389F24B3B06300A8B40A /* AppDelegate.swift */; };
-		85DC38A224B3B06300A8B40A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC38A124B3B06300A8B40A /* SceneDelegate.swift */; };
 		85DC38A424B3B06300A8B40A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC38A324B3B06300A8B40A /* ViewController.swift */; };
 		85DC38A724B3B06300A8B40A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DC38A524B3B06300A8B40A /* Main.storyboard */; };
 		85DC38AA24B3B06300A8B40A /* TimeTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85DC38A824B3B06300A8B40A /* TimeTracker.xcdatamodeld */; };
@@ -30,7 +29,6 @@
 /* Begin PBXFileReference section */
 		85DC389C24B3B06300A8B40A /* TimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DC389F24B3B06300A8B40A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		85DC38A124B3B06300A8B40A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		85DC38A324B3B06300A8B40A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		85DC38A624B3B06300A8B40A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85DC38A924B3B06300A8B40A /* TimeTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeTracker.xcdatamodel; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				85DC389F24B3B06300A8B40A /* AppDelegate.swift */,
-				85DC38A124B3B06300A8B40A /* SceneDelegate.swift */,
 				85DC38A324B3B06300A8B40A /* ViewController.swift */,
 				85DC38A524B3B06300A8B40A /* Main.storyboard */,
 				85DC38AB24B3B06900A8B40A /* Assets.xcassets */,
@@ -205,7 +202,6 @@
 			files = (
 				85DC38A424B3B06300A8B40A /* ViewController.swift in Sources */,
 				85DC38A024B3B06300A8B40A /* AppDelegate.swift in Sources */,
-				85DC38A224B3B06300A8B40A /* SceneDelegate.swift in Sources */,
 				85DC38AA24B3B06300A8B40A /* TimeTracker.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -352,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -369,6 +365,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9322UFZ9MA;
 				INFOPLIST_FILE = TimeTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,6 +384,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9322UFZ9MA;
 				INFOPLIST_FILE = TimeTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -406,7 +404,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9322UFZ9MA;
 				INFOPLIST_FILE = TimeTrackerTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -428,7 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9322UFZ9MA;
 				INFOPLIST_FILE = TimeTrackerTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
