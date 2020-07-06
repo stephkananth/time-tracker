@@ -10,12 +10,12 @@ import XCTest
 @testable import TimeTracker
 
 class LoggerTests: XCTestCase {
-    func testGetLogMessageWithMessage() {
+    func testGetLogMessageWithoutMessage() {
         let log = Logger.getLogMessage(className: "className", methodName: "methodName")
         XCTAssertEqual(log, "className > methodName")
     }
 
-    func testGetLogMessageWithoutMessage() {
+    func testGetLogMessageWithMessage() {
         let log = Logger.getLogMessage(className: "className", methodName: "methodName", message: "message")
         XCTAssertEqual(log, "className > methodName: message")
     }
