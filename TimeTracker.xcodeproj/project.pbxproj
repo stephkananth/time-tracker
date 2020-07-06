@@ -10,7 +10,6 @@
 		85DC38A024B3B06300A8B40A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC389F24B3B06300A8B40A /* AppDelegate.swift */; };
 		85DC38A424B3B06300A8B40A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC38A324B3B06300A8B40A /* ViewController.swift */; };
 		85DC38A724B3B06300A8B40A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DC38A524B3B06300A8B40A /* Main.storyboard */; };
-		85DC38AA24B3B06300A8B40A /* TimeTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85DC38A824B3B06300A8B40A /* TimeTracker.xcdatamodeld */; };
 		85DC38AC24B3B06900A8B40A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DC38AB24B3B06900A8B40A /* Assets.xcassets */; };
 		85DC38AF24B3B06900A8B40A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DC38AD24B3B06900A8B40A /* LaunchScreen.storyboard */; };
 		85DC38BA24B3B06900A8B40A /* TimeTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DC38B924B3B06900A8B40A /* TimeTrackerTests.swift */; };
@@ -31,7 +30,6 @@
 		85DC389F24B3B06300A8B40A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85DC38A324B3B06300A8B40A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		85DC38A624B3B06300A8B40A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		85DC38A924B3B06300A8B40A /* TimeTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeTracker.xcdatamodel; sourceTree = "<group>"; };
 		85DC38AB24B3B06900A8B40A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85DC38AE24B3B06900A8B40A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85DC38B024B3B06900A8B40A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 				85DC38AB24B3B06900A8B40A /* Assets.xcassets */,
 				85DC38AD24B3B06900A8B40A /* LaunchScreen.storyboard */,
 				85DC38B024B3B06900A8B40A /* Info.plist */,
-				85DC38A824B3B06300A8B40A /* TimeTracker.xcdatamodeld */,
 			);
 			path = TimeTracker;
 			sourceTree = "<group>";
@@ -202,7 +199,6 @@
 			files = (
 				85DC38A424B3B06300A8B40A /* ViewController.swift in Sources */,
 				85DC38A024B3B06300A8B40A /* AppDelegate.swift in Sources */,
-				85DC38AA24B3B06300A8B40A /* TimeTracker.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,19 +467,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		85DC38A824B3B06300A8B40A /* TimeTracker.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				85DC38A924B3B06300A8B40A /* TimeTracker.xcdatamodel */,
-			);
-			currentVersion = 85DC38A924B3B06300A8B40A /* TimeTracker.xcdatamodel */;
-			path = TimeTracker.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 85DC389424B3B06300A8B40A /* Project object */;
 }
