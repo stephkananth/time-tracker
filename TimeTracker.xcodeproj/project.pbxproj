@@ -56,6 +56,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85C621CA24B3BBCB00CCDC21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		85C621CB24B3BBD500CCDC21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85DC38AD24B3B06900A8B40A /* LaunchScreen.storyboard */,
+				85DC38A524B3B06300A8B40A /* Main.storyboard */,
+				85DC38AB24B3B06900A8B40A /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		85C621CC24B3BBD800CCDC21 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		85C621CD24B3BBDD00CCDC21 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				85DC38A324B3B06300A8B40A /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		85C621CE24B3BC2C00CCDC21 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				85DC389F24B3B06300A8B40A /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
 		85DC389324B3B06300A8B40A = {
 			isa = PBXGroup;
 			children = (
@@ -77,11 +117,11 @@
 		85DC389E24B3B06300A8B40A /* TimeTracker */ = {
 			isa = PBXGroup;
 			children = (
-				85DC389F24B3B06300A8B40A /* AppDelegate.swift */,
-				85DC38A324B3B06300A8B40A /* ViewController.swift */,
-				85DC38A524B3B06300A8B40A /* Main.storyboard */,
-				85DC38AB24B3B06900A8B40A /* Assets.xcassets */,
-				85DC38AD24B3B06900A8B40A /* LaunchScreen.storyboard */,
+				85C621CE24B3BC2C00CCDC21 /* AppDelegate */,
+				85C621CA24B3BBCB00CCDC21 /* Models */,
+				85C621CC24B3BBD800CCDC21 /* ViewModels */,
+				85C621CD24B3BBDD00CCDC21 /* ViewControllers */,
+				85C621CB24B3BBD500CCDC21 /* Views */,
 				85DC38B024B3B06900A8B40A /* Info.plist */,
 			);
 			path = TimeTracker;
