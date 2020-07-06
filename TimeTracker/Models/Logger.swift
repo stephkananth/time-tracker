@@ -9,11 +9,9 @@
 import Foundation
 
 struct Logger {
-    private static let isShowingTimeStamps: Bool = false
-
     static func log(className: String, methodName: String, message: String? = nil) {
         let log = getLogMessage(className: className, methodName: methodName, message: message)
-        isShowingTimeStamps ? NSLog(log) : print(log)
+        print(log)
     }
 
     internal static func getLogMessage(className: String, methodName: String, message: String? = nil) -> String {

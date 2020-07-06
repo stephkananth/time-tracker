@@ -12,6 +12,5 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         Logger.log(className: "ViewController", methodName: "viewDidLoad")
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 }
