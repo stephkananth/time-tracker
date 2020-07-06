@@ -1,4 +1,4 @@
-name: Test and Lint
+name: TimeTracker CI
 on: [ push, pull_request ]
 jobs:
   test:
