@@ -11,8 +11,10 @@ import UIKit
 class ViewController: UIViewController {
 
     // MARK: - Fields
+    var viewModel = ViewModel()
 
     // MARK: Outlets
+    @IBOutlet weak var tableView: UITableView!
 
     // MARK: - Methods
 
@@ -21,6 +23,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         Logger.log(className: "ViewController", methodName: "viewDidLoad")
         super.viewDidLoad()
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "entity_cell")
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -51,6 +56,8 @@ class ViewController: UIViewController {
                 return
             }
             Logger.log(className: "ViewController", methodName: "createAndPresentAlert", message: "text: \(text)")
+            self.viewModel.entries.append(Entry(time: Date(), name: text))
+            self.tableView.reloadData()
         }
         alertController.addAction(doneAction)
         alertController.addTextField { $0.clearButtonMode = .always }
