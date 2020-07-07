@@ -103,8 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				85DC389E24B3B06300A8B40A /* TimeTracker */,
-				85DC38B824B3B06900A8B40A /* TimeTrackerTests */,
 				85DC389D24B3B06300A8B40A /* Products */,
+				85DC38B824B3B06900A8B40A /* TimeTrackerTests */,
 			);
 			sourceTree = "<group>";
 		};

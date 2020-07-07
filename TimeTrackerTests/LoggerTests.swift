@@ -17,6 +17,6 @@ class LoggerTests: XCTestCase {
 
     func testGetLogMessageWithMessage() {
         let log = Logger.getLogMessage(className: "className", methodName: "methodName", message: "message")
-        XCTAssertEqual(log, "className > methodName: message")
+        XCTAssertEqual(log, "className > methodName - message")
     }
 }

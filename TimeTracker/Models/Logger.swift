@@ -15,12 +15,12 @@ struct Logger {
     static func log(className: String, methodName: String, message: String? = nil) {
         loggerQueue.async {
             let log = getLogMessage(className: className, methodName: methodName, message: message)
-            print(log)
+            NSLog(log)
         }
     }
 
     internal static func getLogMessage(className: String, methodName: String, message: String? = nil) -> String {
         guard let message = message else { return "\(className) > \(methodName)" }
-        return "\(className) > \(methodName): \(message)"
+        return "\(className) > \(methodName) - \(message)"
     }
 }
