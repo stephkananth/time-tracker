@@ -11,7 +11,7 @@ import Foundation
 struct Entry {
     private(set) var time: Date
     private(set) var name: String
-    private(set) var category: String? = nil
+    private(set) var category: String?
 
     func getTimeString() -> String {
         Logger.log(className: "Entry", methodName: "getTimeString")
